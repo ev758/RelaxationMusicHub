@@ -1,0 +1,246 @@
+.relaxation-music-search {
+    margin: 150px 0px 0px 0px;
+}
+
+.relaxation-music-hub {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+
+.relaxation-music-title {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.relaxation-music-title:hover {
+    color: #FFFFFF;
+}
+
+.relaxation-music-figure {
+    margin-bottom: 40px;
+}
+
+.relaxation-music-image {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 30px 20px 0px 30px;
+}
+
+.relaxation-music-caption {
+    text-align: left;
+    padding: 30px 0px 0px 0px;
+}
+
+.relaxation-music-play-button {
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-left: 40px;
+}
+
+.relaxation-music-loop-button {
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 15px 0px 0px 30px;
+}
+
+.relaxation-music {
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.music-search-results {
+    color: #FFFFFF;
+}
+
+.relaxation-audio {
+    width: 100%;
+}
+
+.audio {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 65%;
+    height: 10px;
+    border-radius: 5px;
+    background: #000000;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-left: 150px;
+}
+
+.audio:hover {
+    opacity: 1;
+}
+
+.audio::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.audio::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.audio-volume {
+    float: left;
+    padding: 50px 0px 0px 30px;
+}
+
+.audio-credit {
+    font-size: 15px;
+    margin: 90px 0px 0px 10px;
+}
+
+.material-icons {
+    font-size: 30px;
+}
+
+.nature-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.relaxation-music-error {
+    text-align: center;
+}
+
+.page-404, .page-error {
+    color: #FFFFFF;
+    font-size: 60px;
+}
+
+.page-404-description, .page-error-description {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    .relaxation-music-figure {
+        margin-bottom: 20px;
+    }
+
+    .relaxation-music-image {
+        width: 150px;
+        height: 150px;
+        float: none;
+        margin: 25px 0px 0px 0px;
+    }
+
+    .relaxation-music-caption {
+        text-align: center;
+    }
+
+    .relaxation-music-play-button {
+        border-radius: 40px;
+        width: 60px;
+        height: 60px;
+        float: none;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .relaxation-music-loop-button {
+        float: none;
+        margin: 0px 0px 0px 30px;
+    }
+
+    .relaxation-music {
+        width: 100%;
+        height: 500px;
+    }
+
+    .audio {
+        margin: 0px 0px 25px 0px;
+    }
+
+    .audio-volume {
+        float: none;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .audio-credit {
+        font-size: 14px;
+        margin: 15px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .relaxation-music-figure {
+        margin-bottom: 60px;
+    }
+
+    .relaxation-music {
+        width: 100%;
+        height: 355px;
+    }
+
+    .audio {
+        margin: 0px 0px 30px 70px;
+    }
+
+    .audio-credit {
+        margin: 100px 0px 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    .relaxation-music-figure {
+        margin-bottom: 50px;
+    }
+
+    .relaxation-music {
+        width: 100%;
+        height: 330px;
+    }
+
+    .audio {
+        margin: 0px 0px 20px 150px;
+    }
+
+    .audio-credit {
+        margin: 95px 0px 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+    .relaxation-music-figure {
+        margin-bottom: 50px;
+    }
+
+    .relaxation-music {
+        width: 90%;
+        height: 330px;
+    }
+
+    .audio {
+        margin: 0px 0px 20px 150px;
+    }
+
+    .audio-credit {
+        margin: 95px 0px 0px 10px;
+    }
+}
